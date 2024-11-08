@@ -1,0 +1,28 @@
+html,body{
+    width: auto;
+    height: auto;
+}
+/* 상단영역 */
+header{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(../img/main.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{ 
+    font-size: 40px;
+    font-weight: bold;
+}
+h1::before{
+    content: "＂";
+}
+h1::after{
+    content: "＂";
+}

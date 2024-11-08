@@ -1,0 +1,41 @@
+/* 포트폴리오영역 */
+section#portfolio{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    min-height: 500px;
+}
+section#portfolio h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: full-width;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 40px;
+}
+section#portfolio div.wrap{
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 30px;
+    column-gap: 140px;
+  }
+section#portfolio figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2 / sapn 4;
+}
+section#portfolio figure img{  
+    width: 25vw;
+    height: 40vh;
+  }
+section#portfolio figure p{      
+    display: inline;
+}
