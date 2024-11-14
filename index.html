@@ -4,72 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이한솔 웹디자인 & 웹퍼블리싱 포트폴리오</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/skill.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- 폰트 -->
-    <link rel="stylesheet" href="css/WantedSansVariable.css">    
+    <link rel="stylesheet" href="css/WantedSansVariable.css">
 </head>
 <body>
-    <!-- 상단영역 -->
-    <header>
+    <!-- header -->
+     <header>
+        <nav>
+            <h1>HS</h1>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+     </header>
+    <!-- title -->
+    <div class="title">
         <h1>My Vision Drawn in Code</h1>
-    </header>
+        <video src="./video/999.mp4" autoplay="" muted="" loop=""></video>
+    </div>
     <main>
-        <!-- 소개영역 -->
-        <div id="about">
-            <h2>ABOUT</h2>
-            <p class="a1">HAN SOL</p>
-            <p class="a2">1993.09.01</p>
-            <p class="a3">2022.08 ~ 2024.08 Grip Shopping Mall MD</p>
-            <p class="a4">안녕하세요 :) 웹 디자인 & 웹 퍼블리셔에서 활동하고 있습니다.<br>
-                사용자 경험(UX)과 사용자 인터페이스(UI)에 중점을 두어 매력적이고 기능적인 웹사이트를 제작하는 데 주력하고 있습니다.<br>
-                디자인 감각과 기술적 능력을 바탕으로 클라이언트의 요구를 충족시키고, 최적화된 웹 솔루션을 제공하는 것을 목표로 하고 있습니다.
-            </p>
-        </div>
-        <!-- 스킬영역 -->
-        <section id="skill">
-            <h2>SKILL</h2>
-            <ul class="design">디자인
-                <li>Adobe Photoshop</li>
-                <li>Adobe illustrator</li>
-                <div>
-                <img src="../personal/img/svg/photoshop.svg" alt="photoshop">
-                <img src="../personal/img/svg/illustrator.svg" alt="illustrator">
-                </div>
-            </ul>
-            <ul class="pub">퍼블리싱
-                <li>HTML</li>
-                <li>CSS</li>
-            <div>
-                <img src="../personal/img/svg/html.svg" alt="html">
-                <img src="../personal/img/svg/css.svg" alt="css">
+    <!-- about -->
+        <section id="about">
+            <div class="wrap">
+                <h2>ABOUT</h2>
+                <ul>
+                    <li>
+                        <h3>HAN SOL</h3>
+                    </li>
+                    <li>
+                        <p>1993.09.01</p>
+                    </li>
+                    <li>
+                        <p>2022.08 ~ 2024.08 Grip Shopping Mall MD</p>
+                    </li>
+                    <li>
+                        <p>
+                        안녕하세요 :) 웹 디자인 & 웹 퍼블리셔에서 활동하고 있습니다.<br>
+                        사용자 경험(UX)과 사용자 인터페이스(UI)에 중점을 두어 매력적이고 기능적인 웹사이트를 제작하는 데 주력하고 있습니다.<br>
+                        디자인 감각과 기술적 능력을 바탕으로 클라이언트의 요구를 충족시키고, 최적화된 웹 솔루션을 제공하는 것을 목표로 하고 있습니다.
+                        </p>
+                    </li>
+                </ul>
             </div>
-            </ul>
-        <ul class="tool">툴
-            <li>VS CODE</li>
-            <div>
-                <img src="../personal/img/svg/vscode.svg" alt="vscode">
-            </div>
-        </ul>
         </section>
-        <!-- 포트폴리오영역 -->
+    <!-- skill -->
+        <section id="skill">
+            <div class="wrap">
+                <h2>SKILL</h2>
+                <ul class="design">
+                    <li>
+                        <h3>Adobe Photoshop</h3>
+                        <h3>Adobe illustrator</h3>
+                    </li>
+                    <li>
+                        <img src="./img/svg/photoshop.svg" alt="">
+                        <img src="./img/svg/illustrator.svg" alt="">
+                    </li>
+                </ul>
+                <ul class="pub">
+                    <li>
+                        <h3>HTML</h3>
+                        <h3>CSS</h3>
+                    </li>
+                    <li>
+                        <img src="./img/svg/html.svg" alt="">
+                        <img src="./img/svg/css.svg" alt="">
+                    </li>
+                </ul>
+                <ul class="tool">
+                    <li>
+                        <h3>VS CODE</h3>
+                    </li>
+                    <li>
+                        <img src="./img/svg/vscode.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    <!-- portfolio -->
         <section id="portfolio">
             <div class="wrap">
-            <h2>PORTFOLIO</h2>
-            <figure>
-                <img src="../personal/img/yellow.png" alt="노랑풍선">
-            </figure>
-            <p class="pf1">노랑풍선</p>
+                <h2>PORTFOLIO</h2>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <p class="pf1"></p>
             </div>
         </section>
+    <!-- contact -->
+      <section id="contact">
+        <div class="wrap">
+            <h2>CONTACT</h2>
+            <address>hans930901@gmail.com</address>
+        </div>
+      </section>
     </main>
-    <!-- 하단영역 -->
-    <footer id="contact">
-        <h2>CONTACT</h2>
-            <ul class="email">hans930901@gmail.com</ul>
+    <!-- footer -->
+    <footer>
+        <div class="wrap">
+            <p>Website designed and developed by Lee HanSol<span>©2024 All rights reserved.</span></p>
+        </div>
     </footer>
 </body>
 </html>

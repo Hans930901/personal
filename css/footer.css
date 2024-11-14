@@ -1,0 +1,13 @@
+footer{  
+  background: #222;
+}
+footer .wrap{
+  padding: 50px 0;
+}
+footer .wrap p{
+  color: white;
+  transform: translateY(30px);
+}
+footer .wrap p span{  
+  font-weight: 900;
+}

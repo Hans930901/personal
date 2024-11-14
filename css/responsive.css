@@ -1,0 +1,24 @@
+@media screen and (max-width:768px){
+/*  common  */
+  .wrap{
+  padding: 0 20px;
+  }
+/*  header  */
+  header nav h1{    
+    font-size: calc(100px * 0.5);
+  }
+/*  title  */
+  .title h1{    
+    font-size: calc(100px * 0.5);
+    padding: 0 calc(100px * 0.2);
+  }
+/*  about  */
+  #about .wrap ul li:nth-child(4) p{    
+    word-break: keep-all;
+  }
+/*  skill  */
+  #skill .wrap ul{    
+    display: block;
+    margin: 20px 0;
+  }
+}

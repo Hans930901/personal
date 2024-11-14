@@ -1,28 +1,15 @@
-html,body{
-    width: auto;
-    height: auto;
+header{  
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
-/* 상단영역 */
-header{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    align-items: center;
-    height: 100vh;
-    min-height: 500px;
-    background-image: url(../img/main.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+header nav{  
+  max-width: 1600px;
+  margin: 0 auto;
 }
-h1{ 
-    font-size: 40px;
-    font-weight: bold;
-}
-h1::before{
-    content: "＂";
-}
-h1::after{
-    content: "＂";
+header nav h1{
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

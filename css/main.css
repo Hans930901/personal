@@ -1,0 +1,101 @@
+main{
+  
+}
+section{
+  background-color: whitesmoke;
+  padding: 20px 0;
+}
+#about{
+  
+}
+#about .wrap{  
+  text-align: center;
+}
+#about .wrap h2{
+  line-height: 6;
+  font-size: 40px;
+  font-weight: 800;
+}
+#about .wrap ul{
+  
+}
+#about .wrap ul li{
+  
+}
+#about .wrap ul li h3{
+  font-size: 20px;
+  font-weight: 800;
+}
+#about .wrap ul li:nth-child(2) p{  
+  font-size: 14px;
+}
+#about .wrap ul li:nth-child(3) p{  
+  line-height: 6;
+  font-size: 13px;
+  color: gray;
+}
+#about .wrap ul li:nth-child(4) p{  
+  line-height: 1.2;
+  font-size: 15px;
+}
+#skill{
+  
+}
+#skill .wrap{
+  max-width: 1200px;
+}
+#skill .wrap h2{
+  line-height: 6;
+  font-size: 40px;
+  font-weight: 800;
+}
+#skill .wrap ul{  
+  text-align: center;
+  margin: 0 20px;
+  display: inline-block;
+}
+#skill .wrap ul li{
+}
+#skill .wrap ul li h3{
+  line-height: 1.6;
+  font-size: 20px;
+}
+#skill .wrap ul li img{
+  
+}
+#portfolio{
+  
+}
+#portfolio .wrap{
+  max-width: 1200px;  
+}
+#portfolio .wrap h2{  
+  line-height: 6;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: end;
+}
+#portfolio .wrap figure{
+  
+}
+#portfolio .wrap figure img{
+  
+}
+#portfolio .wrap p{
+  
+}
+#contact{
+  background-color: whitesmoke;
+  padding: 20px 0;
+}
+#contact .wrap{  
+  text-align: center;
+}
+#contact .wrap h2{
+  line-height: 6;
+  font-size: 40px;
+  font-weight: 800;
+}
+#contact .wrap address{  
+  font-style: normal;
+}
