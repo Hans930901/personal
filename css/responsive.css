@@ -4,11 +4,21 @@
   padding: 0 20px;
   }
 /*  header  */
-  header nav h1{    
+  header{
+    position: absolute;
+  }
+  header nav h1{
     font-size: calc(100px * 0.5);
   }
+  header nav ul{
+    display: none;
+  }
 /*  title  */
-  .title h1{    
+  .title .wrap{    
+    padding: 0;
+    height: 70vh;
+  }
+  .title .wrap h1{    
     font-size: calc(100px * 0.5);
     padding: 0 calc(100px * 0.2);
   }
@@ -20,5 +30,20 @@
   #skill .wrap ul{    
     display: block;
     margin: 20px 0;
+  }
+/*  portfolio  */
+  #portfolio .wrap figure{
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  #portfolio .wrap figure img{
+    
+  }
+  #portfolio .wrap figure p{
+    margin: 20px 0;
+  }
+/*  footer  */
+  footer .wrap p{
+    padding: 0 20px;
   }
 }

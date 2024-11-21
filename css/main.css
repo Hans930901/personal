@@ -20,7 +20,8 @@ section{
   
 }
 #about .wrap ul li{
-  
+  width: fit-content;
+  margin: 0 auto;
 }
 #about .wrap ul li h3{
   font-size: 20px;
@@ -37,6 +38,10 @@ section{
 #about .wrap ul li:nth-child(4) p{  
   line-height: 1.2;
   font-size: 15px;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid lightgrey;
 }
 #skill{
   
@@ -52,7 +57,11 @@ section{
 #skill .wrap ul{  
   text-align: center;
   margin: 0 20px;
+  padding: 30px;
   display: inline-block;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid lightgrey;
 }
 #skill .wrap ul li{
 }
@@ -76,13 +85,19 @@ section{
   text-align: end;
 }
 #portfolio .wrap figure{
-  
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid lightgrey;
+  width: fit-content;
 }
 #portfolio .wrap figure img{
-  
+  width: 300px;
 }
-#portfolio .wrap p{
-  
+#portfolio .wrap figure p{
+  margin: 0 50px;
 }
 #contact{
   background-color: whitesmoke;
@@ -98,4 +113,7 @@ section{
 }
 #contact .wrap address{  
   font-style: normal;
+}
+#contact .wrap address span{
+  margin-left: 25px;
 }
