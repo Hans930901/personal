@@ -54,11 +54,16 @@ section{
   font-size: 40px;
   font-weight: 800;
 }
-#skill .wrap ul{  
+#skill .wrap ul{
+  width: 230px;
+  height: 250px;
+  float: left;
   text-align: center;
   margin: 0 20px;
   padding: 30px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: white;
   border-radius: 50px;
   border: 1px solid lightgrey;
@@ -86,6 +91,10 @@ section{
 }
 #portfolio .wrap figure{
   display: flex;
+  justify-content: flex-end;
+}
+#portfolio .wrap figure a{
+  display: flex;
   align-items: center;
   padding: 10px 40px;
   background-color: white;
@@ -93,11 +102,12 @@ section{
   border: 1px solid lightgrey;
   width: fit-content;
 }
-#portfolio .wrap figure img{
+#portfolio .wrap figure a img{
   width: 300px;
 }
-#portfolio .wrap figure p{
+#portfolio .wrap figure a p{
   margin: 0 50px;
+  color: black;
 }
 #contact{
   background-color: whitesmoke;
@@ -113,6 +123,12 @@ section{
 }
 #contact .wrap address{  
   font-style: normal;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid lightgrey;
+  width: fit-content;
+  margin: 0 auto;
 }
 #contact .wrap address span{
   margin-left: 25px;
