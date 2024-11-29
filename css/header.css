@@ -21,6 +21,7 @@ header nav h1{
   font-size: 100px;
   font-weight: 700;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Nyangi";
 }
 header nav ul{
   width: 50%;
@@ -32,7 +33,7 @@ header nav ul{
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 header nav ul li{
-  
+  font-family: "Ownglyph";
 }
 header nav ul li a {
 }
