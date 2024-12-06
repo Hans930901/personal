@@ -6,10 +6,10 @@ $(function(){
 });
 
 $(document).ready(function () {
-    $(".last-letter-remove").each(function () {
+    $(".last_letter_remove").each(function () {
         var $this = $(this);
         var text = $this.text();
-        $this.html(text.slice(0,text.length-1)+'<span class="last-letter-wrap">'+text.slice(-1)+'</span>')
+        $this.html(text.slice(0,text.length-1)+'<span class="last_letter_wrap">'+text.slice(-1)+'</span>')
     })
 })
 
