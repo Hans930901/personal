@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     line-height:1;
-  }
-  html,body{
+}
+html,body{
     height: 100%;
-  }
-  ul{
+}
+ul{
     list-style: none;
-  }
-  h1,h2,h3,h4,h5,h6{
+}
+h1,h2,h3,h4,h5,h6{
     font-size: initial;
     font-weight:normal;
-  }
-  a{
+}
+a{
     text-decoration:none;
-    color: white;
-  }
+    color: black;
+}

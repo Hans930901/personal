@@ -1,135 +1,196 @@
-main{
-  
+#intro {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-section{
-  background-color: whitesmoke;
-  padding: 20px 0;
+
+#intro h2 {
+    font-size: 160px;
+    font-weight: 1000;
+    letter-spacing: 40px;
 }
-#about{
-  
+
+#about {
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 500px 100px 100px;
+    margin-bottom: 200px;
 }
-#about .wrap{  
-  text-align: center;
+
+#about h2 {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    margin-bottom: 200px;
 }
-#about .wrap h2{
-  line-height: 6;
-  font-size: 40px;
-  font-weight: 800;
+
+#about ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-#about .wrap ul{
-  
+
+#about ul li h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
-#about .wrap ul li{
-  width: fit-content;
-  margin: 0 auto;
+
+#about ul li:nth-of-type(2) p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
-#about .wrap ul li h3{
-  font-size: 20px;
-  font-weight: 800;
+
+#about ul li:nth-of-type(3) p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 100px;
 }
-#about .wrap ul li:nth-child(2) p{  
-  font-size: 14px;
+
+#about ul li:nth-of-type(4) p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+    word-break: keep-all;
 }
-#about .wrap ul li:nth-child(3) p{  
-  line-height: 6;
-  font-size: 13px;
-  color: gray;
+
+#portfolio {
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 500px 100px 100px;
 }
-#about .wrap ul li:nth-child(4) p{  
-  line-height: 1.2;
-  font-size: 15px;
-  padding: 20px 40px;
-  background-color: white;
-  border-radius: 50px;
-  border: 1px solid lightgrey;
+
+#portfolio h2 {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    margin-bottom: 200px;
 }
-#skill{
-  
+
+#portfolio ul {
+    display: flex;
+    flex-direction: column;
 }
-#skill .wrap{
-  max-width: 1200px;
+
+#portfolio ul li {
+    align-self: flex-start;
+    margin-bottom: 300px;
 }
-#skill .wrap h2{
-  line-height: 6;
-  font-size: 40px;
-  font-weight: 800;
+
+#portfolio ul li:nth-child(2n) {
+    align-self: flex-end;
 }
-#skill .wrap ul{
-  width: 230px;
-  height: 250px;
-  float: left;
-  text-align: center;
-  margin: 0 20px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: white;
-  border-radius: 50px;
-  border: 1px solid lightgrey;
+
+#portfolio ul li:last-child {
+    margin-bottom: 0;
 }
-#skill .wrap ul li{
+
+#portfolio ul li .num {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
 }
-#skill .wrap ul li h3{
-  line-height: 1.6;
-  font-size: 20px;
+
+#portfolio ul li:nth-of-type(2n) .num {
+    text-align: end;
 }
-#skill .wrap ul li img{
-  
+
+#portfolio ul li h3 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
-#portfolio{
-  
+
+#portfolio ul li:nth-of-type(2n) h3 {
+    text-align: end;
 }
-#portfolio .wrap{
-  max-width: 1200px;  
+
+#portfolio ul li .img_wrap {
+    display: inline-block;
+    width: 700px;
+    margin-bottom: 20px;
 }
-#portfolio .wrap h2{  
-  line-height: 6;
-  font-size: 40px;
-  font-weight: 800;
-  text-align: end;
+
+#portfolio ul li .img_wrap:hover .badge {
+    opacity: 1;
+    transform: translate(-50%, -50%);
 }
-#portfolio .wrap figure{
-  display: flex;
-  justify-content: flex-end;
+
+#portfolio ul li .img_wrap figure {
+    position: relative;
 }
-#portfolio .wrap figure a{
-  display: flex;
-  align-items: center;
-  padding: 10px 40px;
-  background-color: white;
-  border-radius: 50px;
-  border: 1px solid lightgrey;
-  width: fit-content;
+
+#portfolio ul li .img_wrap figure img {
+    width: 100%;
+    height: 100%;
+    transition: ease 0.5s;
+    object-fit: cover;
 }
-#portfolio .wrap figure a img{
-  width: 300px;
+
+#portfolio ul li .img_wrap figure img:hover {
+    filter: blur(3px);
+    opacity: 0.7;
 }
-#portfolio .wrap figure a p{
-  margin: 0 50px;
-  color: black;
+
+#portfolio ul li .img_wrap figure .badge {
+    font-size: 80px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 30px));
+    opacity: 0;
+    transition: opacity 0.4s, transform 0.4s;
 }
-#contact{
-  background-color: whitesmoke;
-  padding: 20px 0;
+
+#portfolio ul li .desc {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    word-break: keep-all;
 }
-#contact .wrap{  
-  text-align: center;
+
+#portfolio ul li .links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-#contact .wrap h2{
-  line-height: 6;
-  font-size: 40px;
-  font-weight: 800;
+
+#portfolio ul li .links a {
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
 }
-#contact .wrap address{  
-  font-style: normal;
-  padding: 20px 40px;
-  background-color: white;
-  border-radius: 50px;
-  border: 1px solid lightgrey;
-  width: fit-content;
-  margin: 0 auto;
+
+#portfolio ul li .links a:hover {
+    background-color: black;
+    color: white;
 }
-#contact .wrap address span{
-  margin-left: 25px;
+
+#portfolio ul li .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#portfolio ul li .icons span {
+    margin-right: 15px;
+}
+
+#portfolio ul li .icons span:last-child {
+    margin-right: 0;
 }
