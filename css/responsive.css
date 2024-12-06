@@ -1,5 +1,9 @@
 /* -------------태블릿---------------- */
 @media screen and (max-width:1200px){
+  nav {
+    padding: 0 20px;
+  }
+  
   .loading_page, .loading_about, .loading_portfolio {
     font-size: 100px;
     font-weight: 1000;
@@ -27,6 +31,10 @@
   
   #portfolio ul li:nth-of-type(2n) .num {
     text-align: start;
+  }
+  
+  footer {
+    padding: 50px 30px;
   }
 }/* -----------   1200 end  ---------- */
 
@@ -70,6 +78,7 @@
   
   #about h2,#portfolio h2 {
     font-size: 24px;
+    text-align: center;
   }
   
   #about ul li h3,#portfolio ul li h3 {
@@ -112,6 +121,10 @@
   
   #portfolio ul li .icons span {
     font-size: 14px;
+  }
+  
+  footer {
+    padding: 50px 20px;
   }
   
   .copyright {
