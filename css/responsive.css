@@ -1,0 +1,141 @@
+/* -------------태블릿---------------- */
+@media screen and (max-width:1200px){
+  nav {
+    padding: 0 20px;
+  }
+  
+  .loading_page, .loading_about, .loading_portfolio {
+    font-size: 100px;
+    font-weight: 1000;
+    width: 100vw;
+  }
+  
+  button {
+    width: 120px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  #intro h2 {
+    font-size: 4em;
+  }
+  
+  #about ul li:nth-of-type(4) p {
+    width: 560px;
+  }
+  
+  #portfolio ul li:nth-child(2n) {
+    align-self: flex-start;
+  }
+  
+  #portfolio ul li:nth-of-type(2n) .num {
+    text-align: start;
+  }
+  
+  footer {
+    padding: 50px 30px;
+  }
+}/* -----------   1200 end  ---------- */
+
+/* -------------모바일---------------- */
+@media screen and (max-width:768px){
+  .loading_page, .loading_about, .loading_portfolio {
+    font-size: 40px;
+    font-weight: 1000;
+    width: 100vw;
+  }
+  
+  nav h1 a {
+    font-size: 3em;
+  }
+  
+  aside {
+    background-color: white;
+    flex-direction: initial;
+    right: initial;
+    top: 4em;
+    width: 100vw;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  button {
+    width: 80px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #intro {
+    height: 70vh;
+  }
+  
+  #intro h2 {
+    font-size: 2em;
+    letter-spacing: 0.4em;
+  }
+  
+  #about,#portfolio {
+    padding: 40px 20px;
+  }
+  
+  #about h2,#portfolio h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #about ul li h3,#portfolio ul li h3 {
+    font-size: 24px;
+  }
+  
+  #about ul li:nth-of-type(2) p {
+    font-size: 14px;
+  }
+  
+  #about ul li:nth-of-type(3) p {
+    font-size: 14px;
+  }
+  
+  #about ul li:nth-of-type(4) p {
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  #about ul li:nth-of-type(4) p span {
+    display: block;
+  }
+  
+  #portfolio ul li .num {
+    font-size: 20px;
+  }
+  
+  #portfolio ul li .img_wrap {
+    width: auto;
+  }
+  
+  #portfolio ul li .desc {
+    font-size: 14px;
+  }
+  
+  #portfolio ul li .links a {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  
+  #portfolio ul li .icons span {
+    font-size: 14px;
+  }
+  
+  footer {
+    padding: 50px 20px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .copyright span {
+    display: block;
+  }
+}/* -----------   768 end  ---------- */
