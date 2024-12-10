@@ -36,8 +36,8 @@ strong,svg {
   transform: translate(50%,60%);
 }
 
-#fade_text .txt{
-  transform: translate(50%,55%) !important;
+#fade_text text.txt{
+  transform: translate(50%,50%);
 }
 
 @-webkit-keyframes stroke_offset {
